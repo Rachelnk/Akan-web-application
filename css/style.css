@@ -5,3 +5,21 @@ body {
 .description {
   color: aliceblue;
 }
+.header {
+  padding: 20px;
+  text-align: center;
+  /* color: black; */
+  font-size: 30px;
+  margin-bottom: 10px;
+  background-image: url("../img/ghanaflag.jpg");
+}
+.header-title {
+  color: black;
+  text-align: center;
+}
+.about {
+  margin-left: 100px;
+  margin-right: 100px;
+  background: greenyellow;
+
+}
