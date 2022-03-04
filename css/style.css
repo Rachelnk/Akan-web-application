@@ -3,7 +3,7 @@ body {
   height:auto;
 }
 .description {
-  color: aliceblue;
+  color: black;
 }
 .header {
   padding: 20px;
@@ -17,9 +17,12 @@ body {
   color: black;
   text-align: center;
 }
-.about {
-  margin-left: 100px;
-  margin-right: 100px;
-  background: greenyellow;
+.about, .form-section {
+  margin-left: 80px;
+  margin-right: 80px;
+  background: white;
+  border: 100px, solid lightgreen;
+  border-radius: 12px;
+  padding: 10 px;
 
 }
