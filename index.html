@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Web App</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
 </head>
 <body>
   <div class="header">
@@ -66,20 +67,25 @@
   </div>
   <div class="form-section">
     <p id="form-sec" class="description">Please fill out this form.</p>
-    <form action="#" target="_self" id="form-1">
+    <form id="form-1" onsubmit="return validateInput()">
       <label for="Date of Birth">Date of Birth:</label> <br>
-      <input type="text" id="DOB" required> <br>
+      <input type="text" id="DOB" required> <br>      
       <label for="Month">Month:</label> <br>
       <input type="text" id="month" required> <br>
       <label for="Year">Year:</label> <br>
       <input type="text" id="year" required> <br>
+      <label for="gender">Select Gender:</label> <br>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="Female">
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="Male"><br>
       <input type="submit" value="Submit">
     </form>
-    <p>Click here to see the results!</p>
-    <button onclick="getInputValue()">Result</button>
+    <!-- <p>Click here to see the results!</p> -->
+    <!-- <button onclick="getInputValue()">Result</button> -->
     <p id="formResult"></p>
   </div>
-  <script src="js/script.js" type="text/js"></script>
+  
 </body>
 
 </html>
