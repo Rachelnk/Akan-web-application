@@ -7,77 +7,79 @@
   <title>Akan Web App</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<div class="header">
-  <h1 class="header-title">Akan Naming Convention</h1>
-  <!-- <p class="header-image"> <img src="img/ghanaflag.jpg" alt=""> </p> -->
-  <p class="description"></p>
-</div>
-<div class="about">
-  <p id="about-sec1" class="description">
-   <i><strong>Akan names</strong></i> come from a traditional naming system for people from <em>Ghana.</em> <br>
-    Children's names are determined based on factors surrounding their birth e.g. <br> day of the week they were born ,gender, order they were born, etc.
-  </p>
-  <p id="about-sec2" class="description"> Here are the names according to <strong>day of the week and gender</strong>: </p>
-  <table class="akan-names" style="color: black;">
-   <tr>
-     <th>Days</th>
-     <th>Boys</th>
-     <th>Girls</th>
-   </tr> 
-   <tr>
-     <td>Sunday</td>
-     <td>Kwasi</td>
-     <td>Akosua</td>
-   <tr>
-     <td>Monday</td>
-     <td>Kwadwo</td>
-     <td>Adwoa</td>
-   </tr>
-   <tr>
-     <td>Tuesday</td>
-     <td>Kwabena</td>
-     <td>Abenaa</td>
-   </tr>
-   <tr>
-     <td>Wednesday</td>
-     <td>Kwaku</td>
-     <td>Akua</td>
-   </tr>
-   <tr>
-    <td>Thursday</td>
-    <td>Yaw</td>
-    <td>Yaa</td>
-  </tr>
-  <tr>
-    <td>Friday</td>
-    <td>Kofi</td>
-    <td>Afua</td>
-  </tr>
-  <tr>
-    <td>Saturday</td>
-    <td>Kwame</td>
-    <td>Ama</td>
-  </tr>
-  </table>
-
-  <p id="about-sec3" class="description"> The purpose of this web application is to output a user's Akan name based on their date of birth and then gender.</p>
-
-</div>
-<div class="form-section">
-  <p id="form-sec" class="description">Please fill out this form.</p>
-  <form action="" target="_self">
-    <label for="Date of Birth">Date of Birth:</label> <br>
-    <input type="text" id="DOB"> <br>
-    <label for="Month">Month:</label> <br>
-    <input type="text" id="month"> <br>
-    <label for="Year">Year:</label> <br>
-    <input type="text" id="year"> <br>
-    <input type="button" onclick="myFunction()" value="Submit">
-
-
-  </form>
-</div>
 <body>
+  <div class="header">
+    <h1 class="header-title">Akan Naming Convention</h1>
+    <!-- <p class="header-image"> <img src="img/ghanaflag.jpg" alt=""> </p> -->
+    <p class="description"></p>
+  </div>
+  <div class="about">
+    <p id="about-sec1" class="description">
+     <i><strong>Akan names</strong></i> come from a traditional naming system for people from <em>Ghana.</em> <br>
+      Children's names are determined based on factors surrounding their birth e.g. <br> day of the week they were born ,gender, order they were born, etc.
+    </p>
+    <p id="about-sec2" class="description"> Here are the names according to <strong>day of the week and gender</strong>: </p>
+    <table class="akan-names" style="color: black;">
+     <tr>
+       <th>Days</th>
+       <th>Boys</th>
+       <th>Girls</th>
+     </tr> 
+     <tr>
+       <td>Sunday</td>
+       <td>Kwasi</td>
+       <td>Akosua</td>
+     <tr>
+       <td>Monday</td>
+       <td>Kwadwo</td>
+       <td>Adwoa</td>
+     </tr>
+     <tr>
+       <td>Tuesday</td>
+       <td>Kwabena</td>
+       <td>Abenaa</td>
+     </tr>
+     <tr>
+       <td>Wednesday</td>
+       <td>Kwaku</td>
+       <td>Akua</td>
+     </tr>
+     <tr>
+      <td>Thursday</td>
+      <td>Yaw</td>
+      <td>Yaa</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Kofi</td>
+      <td>Afua</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Kwame</td>
+      <td>Ama</td>
+    </tr>
+    </table>
   
+    <p id="about-sec3" class="description"> The purpose of this web application is to output a user's Akan name based on their date of birth and then gender.</p>
+  
+  </div>
+  <div class="form-section">
+    <p id="form-sec" class="description">Please fill out this form.</p>
+    <form action="#" target="_self" id="form-1">
+      <label for="Date of Birth">Date of Birth:</label> <br>
+      <input type="text" id="DOB" required> <br>
+      <label for="Month">Month:</label> <br>
+      <input type="text" id="month" required> <br>
+      <label for="Year">Year:</label> <br>
+      <input type="text" id="year" required> <br>
+      <input type="submit" value="Submit">
+    </form>
+    <p>Click here to see the results!</p>
+    <button onclick="getInputValue()">Result</button>
+    <p id="formResult"></p>
+  </div>
+  <script src="js/script.js" type="text/js"></script>
 </body>
+
 </html>
