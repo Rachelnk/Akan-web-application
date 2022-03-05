@@ -4,6 +4,10 @@ body {
 }
 .description {
   color: black;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 80px;
+  padding-top: 30px;
 }
 .header {
   padding: 20px;
@@ -17,9 +21,18 @@ body {
   color: black;
   text-align: center;
 }
+#about-sec3 {
+  padding-bottom: 30px;
+}
+#about-sec1, #about-sec2, #about-sec3, #form-sec {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
 .about, .form-section {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 120px;
+  margin-right: 120px;
   background: white;
   border: 100px, solid lightgreen;
   border-radius: 12px;
@@ -28,9 +41,38 @@ body {
 }
 input[type=text] {
   border: none;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid lightgreen;
   margin: 10px;
   padding: 10px 20px;
   width: 50%;
   
 }
+input[type=button] {
+  width: 20%;
+  margin-bottom: 20px;
+
+}
+input[type=radio] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form {
+  text-align: center;
+}
+.akan-names {
+  border: 2px solid lightgreen;
+  width: 70%; 
+  padding: 8px 8px;
+  margin-left:15%; 
+  margin-right:15%;
+ 
+}
+.akan-names td, .akan-names th {
+  padding: 8px 8px;
+  border: 1px solid lightgreen;
+  
+}
+.akan-names th {
+  text-align: left;
+}
+
