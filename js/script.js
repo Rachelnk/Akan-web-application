@@ -19,7 +19,9 @@
       var century = Math.floor(y/100);
     // alert(century);
     // dow stands for day of the week
-    var dow = 
+    var dow = (((century/4)-2*century-1) + ((5*y/4)) + ((26(m+1)/10))
+    + d)mod 7;
+    alert(dow);
     }
     
   }
