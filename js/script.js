@@ -23,22 +23,19 @@
     } 
     
     if (checkOK == "true") {
-      // var century = Math.floor(y/100);
-    // alert(century);
-    // dow stands for day of the week
-      // var dow = ( ( (century/4) -2*century-1) + ((5*y/4) ) + ((26*(m+1)/10)) + d ) % 7;
-      // alert(dow);
-      alert(s);
+      var century = Math.floor(y/100);
+      // dow stands for day of the week
+     var dow = ( ( (century/4) -2*century-1) + ((5*y/4) ) + ((26*(m+1)/10)) + d ) % 7;
+      // const nameM = [ "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "", "Kwame" ];
+      // const nameF = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+      // const DOB = ["sunday", "monday", "tuesday","wednesday","thursday","friday","saturday"];
+      // const gender = ["female", "male"];
+
+
+
     }
     
   }
 
-  {/* function getInputValue() {
-    var inputDOB = document.getElementById("DOB").value;
-    var inputMonth = document.getElementById("month").value;
-    var inputYear = document.getElementById("year").value;
-    var finalResult = inputDOB + '' + inputMonth + '' + inputYear;
-    document.getElementById("formResult").innerHTML = "This is the final result" +finalResult; 
-    return getInputValue;
-  } */}
+ 
   
